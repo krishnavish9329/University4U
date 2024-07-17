@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>register page</title>
+    <link rel="stylesheet" href="/login/register.css">
+</head>
+<body>    
+    <div class="box">
+        <form action="" method="post" name="myform" id="form">
+            <p class="textst">Username</p>
+            <input type="text" id="usr" placeholder="Username" name="Name" required/>
+
+            <p style="margin-bottom:5px ;" class="textst">Gender</p>
+            <input type="radio" id="male" name="Gender" value="male" />
+            <label for="male"><span class="gender textst" style="color: rgb(225,225,225);">Male</span></label> 
+            <input type="radio" id="female" name="Gender" value="female" /> 
+            <label for="female"><span class="gender textst" style="color: rgb(225,225,225);">Female</span></label> 
+            <input type="radio" id="other" name="Gender" value="other"  /> 
+            <label for="other"><span class="gender textst" style="color: rgb(225,225,225);">Other</span></label>
+            <p class="textst">Email Address</p>
+            <input type="email" name="Gmail" id="email" placeholder="Email Address" required/> 
+            <p class="textst">Password</p>
+            <input type="password" id="pas" placeholder="Password" name="Password" required/> 
+            <p class="textst">Confirm Password</p>
+            <input type="password" id="pas1" placeholder="Confirm Password" name="pass1" required/> 
+            <br>
+            <input type="submit" id="submitBtn" value="REGISTER" name="register"/>
+            <br>
+            <span class="textst">Already have an account?</span>
+            <a href="/Home/login" style="color: rgb(45, 250, 4);">Login</a>
+          </form>
+    </div>
+</body>
+</html>

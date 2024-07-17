@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 3px;
+
+}
+
+.coursecontent {
+    height: 485px;
+    width: 647px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+table {
+    height: 436px;
+    width: 648px;
+    margin: 0 auto;
+    border: 2px solid rgb(0, 225, 0);
+    border-radius: 22px;
+}
+
+table:hover {
+    border: 2px solid rgb(225, 0, 0);
+    background-repeat: 23px;
+}
+
+td {
+    height: 125px;
+    width: 150px;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(0, 225, 0);
+    border: 0px solid rgb(0, 225, 0);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.coursesbut {
+    height: 125px;
+    width: 150px;
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.281);
+    text-shadow: 2px 2px 2px white;
+    font-weight: 900;
+
+}
+
+#but1 {
+    background-image: url(image/student10.jpg);
+}
+
+#but2 {
+    background-image: url(image/imgae10+2.jpg);
+}
+
+#but3 {
+    background-image: url(image/diplom.jpg);
+}
+
+#but4 {
+    background-image: url(image/graduation.jpg);
+}
+#but5 {
+    background-image:url(image/postGraduation.jpg);
+}
+#but6 {
+    background-image:url(image/phd.png);
+}
+.coursesbut:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    text-shadow: 2px 2px 2px black;
+}
+

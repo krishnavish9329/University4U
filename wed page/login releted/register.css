@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 2px;
+    height: 635px;
+    width: 99%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgb(45, 250, 4);
+    background-color: black;
+    background-image: url(../image/background3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+body:active{
+    border: 2px solid rgb(250, 4, 4);
+}
+.box{
+    height: 546px;
+    width: 390px;
+    border: 2px solid rgb(45, 250, 4);
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+#usr,#email,#pas,#pas1{
+    margin-top: 15px;
+    height: 34px;
+    width: 207px;
+    /* color: black; */
+    font-size: 25px;
+    border-radius: 10px;
+}
+input:hover{
+    border : 3px solid red;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+}
+input::placeholder{
+    color: black;
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+    margin-top: 16px;
+}
+.gender{
+    height: 4px;
+    width: 4px;
+    font-size: 25px;
+}
+#submitBtn{
+    margin-top:5px;
+    height: 24px;
+    width: 138px;
+    color: black;
+    font-size: 20px;
+    border-radius: 23px;
+    background-color: rgb(0, 225, 0);
+}
+#submitBtn:hover{
+    border : 3px solid rgb(45, 250, 4);
+    background-color:black ;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+   
+}
+#submitBtn:active{
+    background-color:rgb(255, 182, 71) ;
+    color: black;
+    box-shadow: 0 0 2px 2px rgb(251, 232, 185);
+}
+.box:hover{
+    border : 3px solid red;
+    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
+}
+.textst{
+    color: rgb(251, 225, 225);
+}
+input{
+    background-color: rgba(0,0,0,0.1);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}

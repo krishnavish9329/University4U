@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>login and logout page</title>
+    <link rel="stylesheet" href="/login/logheader.css">
+    <link rel="stylesheet" href="/login/login.css" >
+</head>
+<body>    
+        <!-- it is header  -->
+    <header>
+        <div class="header">
+            <div class="image">
+                <img src="/../image/nevberimg.jpg" alt="" id="nev-img">
+            </div>
+            <div class="headeritem">
+                <ul type="none" class="item">
+                    <li><a href="/Home">HOME</a></li>
+                    <li><a href="/Home/University">UNIVERSITY</a></li>
+                    <li><a href="/Home/Courses">COURSES</a></li>
+                    <li><select id="selitem" class="selitem1" style="color: rgb(0,225,0);">
+                        <option class="selitem" >CATEGORY</option>
+                        <option class="selitem" >CENTRAL UNIVERSITY</option>
+                        <option class="selitem" >STATE UNIVERSITY</option>
+                        <option class="selitem" >PRIVATE UNIVERSITY</option>
+                    </select> </li>
+                    <li><a href="">About us</a></li>
+                </ul>
+            </div>
+            <div class="headerlogin">
+                <a href="/Home/login" id="nevLogin"><button>LOGIN</button></a>
+            </div>
+        </div>
+    </header>
+
+        <!-- this page starting from hear -->
+    <div id="prebox">
+    <div class="box">
+        <h1 id="logtext">Enter you login id & password</h1>
+        <form action="" method="post">
+            <input type="text" name="Gmail" id="email" class="inputtext" placeholder="enter number or gmail" required>
+            <input type="password" name="Password" id="password" class="inputtext" placeholder="enter password" required>
+            <input type="submit"  id="submit" value="submit">
+            <div>
+                <a href="/home/ForgotPass"  class="aforandref">Forgot Password?</a> <br />
+                <span style="color: rgb(225, 225, 225);
+                text-shadow: 2px 2px 1px rgb(0, 0,0);">
+                Don't have an account?
+                </span>
+                <a href="/Home/register" class="aforandref" >Register</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    padding: 0;
+    display: flexbox;
+}
+body:active{
+    border: 2px solid rgb(255, 0, 0) ;
+}
+.header {
+    margin-top: 2px;
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0,0);
+    
+}
+.header:hover {
+    border: 2px solid rgb(45, 250, 4);
+}
+#nev-img {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border-radius: 70px;
+    margin: 9px;
+    margin-right: 134px;
+}
+.item {
+    display: flex;
+}
+.item li {
+    margin-top: 20px;
+    margin-left: 96px;
+}
+
+.headerlogin {
+    display: flex;
+    padding-left: 94px;
+    align-items: center;
+}
+button {
+    height: 38px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: rgb(45, 250, 4);
+}
+button:hover {
+    color: white;
+    background-color: rgb(235, 219, 82);
+}
+button:active {
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+#selitem,a {
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* color: rgb(0,225,0); */
+    
+}
+a:hover {
+    color: rgb(45, 250, 4);
+}
+
+.selitem1{
+    width: 101px;
+    border:0px solid;
+    background-color: rgba(0, 0, 0,0.1);
+    color: rgb(0,225,0);
+    
+}
+option{
+    /* font-size: 20px; */
+    background-color: rgb(0,0,0,0.8);
+}
